@@ -13,6 +13,8 @@ def process_scores():
     print("Scores:", scores)
     print("Sum:", total)
     print("Average:", round(average, 2))
+    print("Maximum score:", max(scores))
+    print("Minimum score:", min(scores))
 
     
 
